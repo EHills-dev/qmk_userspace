@@ -38,8 +38,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,                        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,  KC_NO,
         KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,                        KC_AGIN, KC_PSTE, KC_COPY, KC_CUT,  KC_UNDO, KC_NO,
         KC_NO, KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, KC_NO,                        KC_CAPS, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_NO,
-        KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO,          KC_NO, KC_INS,  KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_NO,
-                                 KC_NO,   KC_NO,   KC_NO, KC_NO,          KC_NO, KC_NO,   KC_NO,   KC_NO
+        KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO, KC_NO,         KC_NO,  KC_INS,  KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_NO,
+                                 KC_NO,   KC_NO,   KC_NO, KC_NO,         KC_ENT, KC_BSPC, KC_DEL,  KC_NO
     ),
     [_MOUSE] = LAYOUT(
         KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,                          KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_NO, KC_LCBR, KC_AMPR, KC_ASTR, KC_LPRN, KC_RCBR,                      KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
         KC_NO, KC_COLN, KC_DLR,  KC_PERC, KC_CIRC, KC_PLUS,                      KC_NO, KC_RSFT, KC_RCTL, KC_RALT, KC_RGUI, KC_NO,
         KC_NO, KC_TILD, KC_EXLM, KC_AT,   KC_HASH, KC_PIPE, KC_NO,        KC_NO, KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
-                                 KC_NO,   KC_NO,   KC_NO,   KC_NO,        KC_NO, KC_NO, KC_NO, KC_NO
+                                 KC_NO,   KC_LPRN, KC_RPRN, KC_UNDS,      KC_NO, KC_NO, KC_NO, KC_NO
     ),
     [_NUM] = LAYOUT(
         KC_NO, KC_NO,   KC_NO, KC_NO, KC_NO,  KC_NO,                        KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
